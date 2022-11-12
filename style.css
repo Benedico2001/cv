@@ -1,0 +1,282 @@
+
+
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    order: 1;
+    background-color: rgb(56, 56, 56);
+    max-width: 25%;
+    width: 400px;
+    
+}
+.column_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    order:2;
+    border-right: thick solid rgb(56, 56, 56);
+    width: 800px;
+    color: rgb(56, 56, 56);
+}
+
+.photo{
+    order:1;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    order:2; 
+    color:white;
+    height: 250px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.photo img{
+    height: 200px;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-bottom: 25%;
+    border-radius: 10%;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    order:3;
+    color:white;
+    height: 250px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.personal p{
+    margin-left: 5%;
+}
+
+.date{
+    order:1;
+}
+
+.nationality{
+    order:2;
+}
+
+.marriage{
+    order:3;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order:4;
+    color:white;
+    height: 15%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 40%;
+}
+
+.language_1{
+    order:1;
+    margin-left: 10%;
+   
+}
+
+.language_2{
+    order:2;
+    margin-left: 10%;
+}
+
+.language_3{
+    order:3;
+    margin-left: 10%;
+}
+
+
+.hobbies{
+    order:5;
+    color:white;
+    height: 250px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.space{
+    order:1;
+    height: 6%;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    order:2;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    top: 10px;
+    width: 100px;
+}
+
+.boss{
+    order:1;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    order:3;
+    margin-right: -15%;
+    margin-left: 250px;
+}
+
+.info img{
+    height:45px;
+    margin-top: 50%;
+    margin-left: 25%;
+    margin-bottom: 25%;
+}
+
+.logos{
+    order:1;
+}
+
+.info_logos{
+    order:2;
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 80%;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    order:2;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 325px;
+}
+
+.experience h3{
+    border-bottom: solid rgb(56, 56, 56);
+}
+
+.job_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    order:1; 
+    margin-left: 10%;
+    border-bottom: solid rgb(56, 56, 56);
+}
+
+.name_1{
+    order:1;
+}
+
+.description_1{
+    order:2;
+}
+
+
+.job_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    order:2;
+    margin-left: 10%;
+}
+
+.name_2{
+    order:1;
+}
+
+.description_2{
+    order:2;
+}
+
+.education{
+    order:4;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 15%;
+    height: 325px;
+}
+
+.education h3{
+    border-bottom:  solid rgb(56, 56, 56);
+}
+
+.skills{
+    order:5;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.skills1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    order:2;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.skills_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    order:1;
+    
+}
+
+.skills_col1{
+    order:1;
+}
+
+.skills_col2{
+    order:2;
+}
+
+.skills_col3{
+    order:3;
+}
+
+.skills_col4{
+    order:1;
+}
+
+.skills_col5{
+    order:1;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
