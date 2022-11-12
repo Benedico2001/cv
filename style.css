@@ -226,6 +226,10 @@
     margin-top: 5%;
 }
 
+.skills h3{
+    border-bottom:solid rgb(56,56,56);
+}
+
 .row{
     display: flex;
     flex-direction: row;
